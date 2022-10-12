@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV och Portofolio</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/fontello.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="icon-menu"></i>
+            </label>
+            <ul>
+                <li><a class="active" href="#"> Profil</a></li>
+                <li> <a href="#">Kompetens</a></li>
+                <li> <a href="#">Övrigt</a></li>
+                <li><a href="#">Portfolio </a></li>
+                <li> <a href="#">Kontakt </a></li>
+            </ul>
+        </nav>
+        <section class="text-header">
+            <h1> <span>Jag</span> heter Joselyn Moreta</h1>
+        </section>
+        <div class="wave">
+            <svg class="wave1" viewBox="0 0 500 150" preserveAspectRatio="none">
+                <path d="M0.00,49.99 C150.00,150.00 301.92,54.77 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: rgb(255, 255, 255);">
+                </path>
+            </svg>
+        </div>
+    </header>
+    <main>
+        <section class="content about-me">
+            <h2 class="title">Profil</h2>
+            <div class="content-about-me">
+                <img src="./img/joselyyn.jpeg" alt="About me picture" class="imagen-about-me">
+                <div class="text-about-me">
+                    <p> Mitt mål/dröm långsiktigt är att jag ska blir Fullstackutvecklare och bidra med min kunskap till
+                        alla som behöver, kanske både i Sverige och utomslands. Jag har arbetat med kunder och
+                        kundservice vid de flesta av mina tidigare anställningar, som tex bartender, ekonomiassistens
+                        och publikvärd/säkerhetsvärd hos AIK på Friends arena. Där tempot kan vara väldigt högt, men jag
+                        har även jobbat som personlig assistent, vårdbiträde där man hela tiden anpassar sig efter en
+                        annan persons tempo och humör. Och jag trivs i båda lika bra. </p>
+                    <button type="button" class="readmore-cv">Läs mera</button>
+                </div>
+            </div>
+        </section>
+        <section class="content about-kompetens">
+            <h2 class="title">Kompetens</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col"> Utbilningar</th>
+                        <th scope="col">Datum</th>
+                        <th scope="col">Plats</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ekonomiassistens</td>
+                        <td> 2020 </td>
+                        <td>Jensen skolan</td>
+                    </tr>
+                    <tr>
+                        <td>Undersköterska</td>
+                        <td> 2021 </td>
+                        <td>Yrkeskompetens</td>
+                    </tr>
+                    <tr>
+                        <td>Barterder</td>
+                        <td> 2016 </td>
+                        <td>European Bartender school</td>
+                    </tr>
+                    <tr>
+                        <td>Naturvetenskapsprogrammet</td>
+                        <td> 2016 </td>
+                        <td>Solna Gymnasieutb</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="clientes content">
+            <h2 class="title">Övrigt</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/globeen.avif" alt="minbild">
+                    <div class="contenito-texto-card">
+                        <h4>Språk</h4>
+                        <p> Jag kan prata 3 språk: spanska , svenska och engelska.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/learning.jpeg" alt="minbild">
+                    <div class="contenito-texto-card">
+                        <h4>Hobbies</h4>
+                        <p>Jag tycker om att träna och läsa böcker.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content about-portfolio">
+            <div class="contenedor">
+                <h2 class=" title title-portfolio"> Portfolio</h2>
+                <div class="portfolio-cont">
+                    <div class="portfolio-ind">
+                        <video controls width="320" height="200">
+                            <source src="video/video2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="portfolio-ind">
+                        <video controls width="320" height="200">
+                            <source src="video/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="portfolio-ind">
+                        <video controls width="320" height="200">
+                            <source src="video/video1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="content form">
+            <h4>Kontakta mig</h4>
+            <form class="form" method="post">
+                <input type="text" placeholder="Namn">
+                <input type="email" placeholder="Email">
+                <textarea name="textarea" placeholder="Lägg ditt meddelande här..">
+                 </textarea>
+                <button type="submit" class="btn-submit">Skicka </button>
+            </form>
+        </div>
+        <div class="card_projects-links">
+            <i class="icon-facebook"></i>
+            <i class="icon-instagram"></i>
+            <i class="icon-twitter"></i>
+        </div>
+    </footer>
+</body>
+
+</html>
